@@ -1,4 +1,4 @@
-import { render, waitFor } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import StatusBar from '@/components/StatusBar'
 import '@testing-library/jest-dom'
 import 'jest-fetch-mock'
@@ -11,7 +11,7 @@ describe('StatusBar', () => {
   it('percent should be a number between 0 and 100', async () => {
     const { getByTestId } = render(<StatusBar percent={0} />)
     console.log(getByTestId('percent'))
-    expect(Number(getByTestId('percent').textContent)).toBeGreaterThanOrEqual(0);
-    expect(Number(getByTestId('percent').textContent)).toBeLessThan(100);
+    expect(Number(getByTestId('percent').textContent)).toBeGreaterThanOrEqual(0)
+    expect(Number(getByTestId('percent').textContent)).toBeLessThan(100)
   })
 })

@@ -9,7 +9,10 @@ const StatusBar = ({ percent = 0, text = '' }: Props) => {
   return (
     <div className="">
       <div className="flex items-center justify-between text-sm font-medium mb-1">
-        <p className="text-gray-500"><span data-testid="percent">{Number(percent.toFixed())}</span>% utilised</p>
+        <p className="text-gray-500">
+          <span data-testid="percent">{Number(percent.toFixed())}</span>%
+          utilised
+        </p>
         <p className="text-gray-300">{text}</p>
       </div>
       <div className="relative w-full h-1 bg-gray-200 rounded-xl">
