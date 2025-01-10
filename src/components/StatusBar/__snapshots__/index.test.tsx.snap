@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBar renders as expected 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="flex items-center justify-between text-sm font-medium mb-1"
+    >
+      <p
+        class="text-gray-500"
+      >
+        <span
+          data-testid="percent"
+        >
+          0
+        </span>
+        % utilised
+      </p>
+      <p
+        class="text-gray-300"
+      />
+    </div>
+    <div
+      class="relative w-full h-1 bg-gray-200 rounded-xl"
+    >
+      <div
+        class="absolute top-0 left-0 h-1 bg-lime-400 rounded-xl"
+        style="width: 0%;"
+      />
+    </div>
+  </div>
+</div>
+`;

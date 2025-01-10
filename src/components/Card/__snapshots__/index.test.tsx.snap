@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders as expected when currency is EUR 1`] = `
+<div>
+  <div
+    class="border-[1px] rounded-lg flex flex-col justify-between gap-6"
+    id="1"
+  >
+    <div
+      class="px-5 pt-6"
+    >
+      <p
+        class="text-md font-medium text-gray-500 mb-3"
+      >
+        Name
+      </p>
+      <p
+        class="text-sm text-gray-400"
+      >
+        Spend Card
+      </p>
+    </div>
+    <div
+      class="p-4 bg-gray-100 cursor-pointer"
+    >
+      <p
+        class="text-sm font-medium text-lime-500"
+      >
+        Activate 
+        card
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card renders as expected when currency is GBP 1`] = `
+<div>
+  <div
+    class="border-[1px] rounded-lg flex flex-col justify-between gap-6"
+    id="1"
+  >
+    <div
+      class="px-5 pt-6"
+    >
+      <p
+        class="text-md font-medium text-gray-500 mb-3"
+      >
+        Name
+      </p>
+      <p
+        class="text-sm text-gray-400"
+      >
+        Spend Card
+      </p>
+    </div>
+    <div
+      class="p-4 bg-gray-100 cursor-pointer"
+    >
+      <p
+        class="text-sm font-medium text-lime-500"
+      >
+        Activate 
+        card
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card renders as expected when currency is USD 1`] = `
+<div>
+  <div
+    class="border-[1px] rounded-lg flex flex-col justify-between gap-6"
+    id="1"
+  >
+    <div
+      class="px-5 pt-6"
+    >
+      <p
+        class="text-md font-medium text-gray-500 mb-3"
+      >
+        Name
+      </p>
+      <p
+        class="text-sm text-gray-400"
+      >
+        Spend Card
+      </p>
+    </div>
+    <div
+      class="p-4 bg-gray-100 cursor-pointer"
+    >
+      <p
+        class="text-sm font-medium text-lime-500"
+      >
+        Activate 
+        card
+      </p>
+    </div>
+  </div>
+</div>
+`;
